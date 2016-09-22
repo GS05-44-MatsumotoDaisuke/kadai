@@ -55,7 +55,7 @@ textarea {
     opacity: 0.5;
     color: #FFFFFF;
 }
-select{
+.input2 select{
     font-size: 30px;
     color: #419BF9;
     margin-top: -5px;
@@ -67,12 +67,10 @@ select{
 .left{
     float: left;
 }
-.ml20{
-    margin-left: 20px;
-}
-.ml30{
-    margin-left: 30px;
-}
+.ml20{margin-left: 20px;}
+.ml30{margin-left: 30px;}
+.mb10{margin-bottom: 10px;}
+.mb20{margin-bottom: 20px;}
 .top{
     margin-top: 30px;
     margin-bottom: 30px;
@@ -104,7 +102,7 @@ select{
 
 .bookbox{
     width: 400px;
-    height: 200px;
+    height: 250px;
     float: left;
     margin: 10px;
     border: 1px #419BF9 solid;
@@ -116,7 +114,7 @@ select{
 }
 .textbox{
     width: 330px;
-    height: 198px;
+    height: 248px;
     background-color: #FFFFFF;
     padding-top: 20px;
     box-sizing: border-box;
@@ -216,4 +214,110 @@ select{
 .to p a:hover{
     opacity: 0.5;
 }
-
+.edit,.delete{
+    float: left;
+    margin-top: 70px;
+    margin-right: 10px;
+}
+.edit a:hover,.delete a:hover{
+    color: #419BF9;
+}
+.detailbookbox{
+    width: 800px;
+    height: 400px;
+    float: left;
+    margin: 10px;
+    border: 1px #419BF9 solid;
+    background-color: #419BF9;
+    box-sizing: border-box;
+    border-radius: 10px;		/* CSS3草案 */
+	-webkit-border-radius: 10px;	/* Safari,Google Chrome用 */
+	-moz-border-radius: 10px;	/* Firefox用 */
+}
+.detailtextbox{
+    width: 798px;
+    height: 398px;
+    background-color: #FFFFFF;
+    padding-top: 20px;
+    box-sizing: border-box;
+    border-radius: 10px 10px 10px 10px;		/* CSS3草案 */
+	-webkit-border-radius: 10px 10px 10px 10px;	/* Safari,Google Chrome用 */
+	-moz-border-radius: 10px 10px 10px 10px;	/* Firefox用 */
+}
+.detailselect{
+    font-size: 30px;
+    color: #419BF9;
+    margin-left: 20px;
+}
+.detailselect select{
+    font-size: 30px;
+    color: #419BF9;
+    margin-top: -5px;
+}
+.detailinput .mb20{
+    font-size: 30px!important;
+    margin-left: 20px;
+    color: #419BF9!important;
+}
+.detailinputurl .mb20{
+    font-size: 30px!important;
+    margin-left: 20px;
+    color: #419BF9!important;
+}
+.detailinput input{
+    width: 590px;
+    font-size: 30px;
+    color: #419BF9;
+    margin-left: 10px;
+}
+.detailinputurl input{
+    width: 590px;
+    font-size: 30px;
+    color: #419BF9;
+    margin-left: 65px;
+}
+.detailcommentbox{
+    margin-left: 20px;
+}
+.detailcommentbox h2{
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    clear: both;
+}
+.detailtextarea textArea{
+    width: 650px;
+    font-size: 20px;
+}
+.detailedit input{
+    margin-right: 20px;
+    margin-top: -40px;
+    float: right;
+    background-color: #419BF9;
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 5px 20px;
+    border-radius: 10px;		/* CSS3草案 */
+	-webkit-border-radius: 10px;	/* Safari,Google Chrome用 */
+	-moz-border-radius: 10px;	/* Firefox用 */
+}
+.detailedit input:hover{
+    opacity: 0.5;
+}
+.detailto p{
+    clear: both;
+    font-size: 20px;
+    color: #419BF9;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    margin-left: 10px;
+}
+.detailto p a{
+    font-size: 20px;
+    color: #419BF9;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+.detailto p a:hover{
+    opacity: 0.5;
+}
