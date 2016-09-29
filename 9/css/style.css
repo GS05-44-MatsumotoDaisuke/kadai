@@ -1,0 +1,399 @@
+.clearfix:after {
+    content:" ";
+    display:block;
+    clear:both;
+}
+input, button, textarea, select {
+	margin: 0;
+	padding: 0;
+	background: none;
+	border: none;
+	border-radius: 0;
+	outline: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+input[type="text"],
+input[type="password"],
+textarea {
+	outline: none;
+	border: 1px solid #03077A;
+	-webkit-transition: all .3s;
+	transition: all .3s;
+}
+input[type="text"]:focus,
+input[type="password"]:focus,
+textarea:focus {
+	box-shadow: 0 0 7px #03077A;
+	border: 1px solid #03077A;
+}
+textarea {
+    width: 500px;
+    font-size: 30px;
+}
+.input1 input{
+    width: 345px;
+    font-size: 30px;
+}
+.input2 input{
+    width: 315px;
+    font-size: 30px;
+}
+.input3 input{
+    width: 402px;
+    font-size: 30px;
+}
+.input4 input{
+    width: 500px;
+    font-size: 30px;
+    background-color: #03077A;
+    color: #FFFFFF;
+}
+.input4 input:hover{
+    width: 500px;
+    font-size: 30px;
+    background-color: #03077A;
+    opacity: 0.5;
+    color: #FFFFFF;
+}
+.input2 select{
+    font-size: 30px;
+    color: #03077A;
+    margin-top: -5px;
+}
+.wrapper{
+    margin: 0 auto;
+    width: 840px;
+}
+.left{
+    float: left;
+}
+.ml20{margin-left: 20px;}
+.ml30{margin-left: 30px;}
+.mb10{margin-bottom: 10px;}
+.mb20{margin-bottom: 20px;}
+.top{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.top h1{
+    font-size: 40px;
+    font-weight: 300;
+    color: #03077A;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.top h2{
+    font-size: 20px;
+    font-weight: 300;
+    color: #03077A;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.rank{
+    margin: 0 auto 80px auto;
+    width: 200px;
+}
+.rank3,.rank2,.rank1{
+    float: left;
+}
+.rank3 img:hover,rank2 img:hover,rank1 img:hover{
+    opacity: 0.5;
+}
+
+.bookbox{
+    width: 400px;
+    height: 250px;
+    float: left;
+    margin: 10px;
+    border: 1px #03077A solid;
+    background-color: #03077A;
+    box-sizing: border-box;
+}
+.textbox{
+    width: 330px;
+    height: 248px;
+    background-color: #FFFFFF;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+.textbox h1.title{
+    font-size: 20px;
+    font-weight: 300;
+    color: #03077A;
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-bottom: 50px;
+}
+.textbox h1.title a{
+    font-size: 20px;
+    font-weight: 300;
+    color: #03077A;
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-bottom: 30px;
+}
+.textbox h1.title a:hover{
+    opacity: 0.5;
+}
+.commentbox{
+    margin-left: 20px;
+}
+.commentbox h2{
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    clear: both;
+}
+.genre{
+    text-align: right;
+    margin-left: 350px;
+    margin-top: -130px;
+    font-size: 25px;
+    color: #FFFFFF;
+    writing-mode: vertical-rl;
+	-ms-writing-mode: tb-rl;
+	-webkit-writing-mode:vertical-rl;
+}
+
+.insert{
+    width: 500px;
+    margin: 30px auto;
+}
+.insert p{
+    font-size: 30px;
+    color: #03077A;
+    margin-bottom: 30px;
+}
+.back{
+    margin: 0 auto;
+    width: 840px;
+    height: 100px;
+    box-sizing: padding-box;
+    padding-left: 20px;
+}
+.back p{
+    font-size: 20px;
+    color: #03077A;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+.back p a{
+    font-size: 20px;
+    color: #03077A;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+.back p a:hover{
+    opacity: 0.5;
+}
+.to{
+    margin: 0 auto;
+    width: 500px;
+    height: 100px;
+    box-sizing: padding-box;
+}
+.to p{
+    font-size: 20px;
+    color: #03077A;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+.to p a{
+    font-size: 20px;
+    color: #03077A;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+.to p a:hover{
+    opacity: 0.5;
+}
+.edit,.delete{
+    float: left;
+    margin-top: 70px;
+    margin-right: 10px;
+}
+.edit a:hover,.delete a:hover{
+    color: #03077A;
+}
+.detailbookbox{
+    width: 800px;
+    height: 400px;
+    float: left;
+    margin: 10px;
+    border: 1px #03077A solid;
+    background-color: #03077A;
+    box-sizing: border-box;
+    border-radius: 10px;		/* CSS3草案 */
+	-webkit-border-radius: 10px;	/* Safari,Google Chrome用 */
+	-moz-border-radius: 10px;	/* Firefox用 */
+}
+.detailtextbox{
+    width: 798px;
+    height: 398px;
+    background-color: #FFFFFF;
+    padding-top: 20px;
+    box-sizing: border-box;
+    border-radius: 10px 10px 10px 10px;		/* CSS3草案 */
+	-webkit-border-radius: 10px 10px 10px 10px;	/* Safari,Google Chrome用 */
+	-moz-border-radius: 10px 10px 10px 10px;	/* Firefox用 */
+}
+.detailselect{
+    font-size: 30px;
+    color: #03077A;
+    margin-left: 20px;
+}
+.detailselect select{
+    font-size: 30px;
+    color: #03077A;
+    margin-top: -5px;
+}
+.detailinput .mb20{
+    font-size: 30px!important;
+    margin-left: 20px;
+    color: #03077A!important;
+}
+.detailinputurl .mb20{
+    font-size: 30px!important;
+    margin-left: 20px;
+    color: #03077A!important;
+}
+.detailinput input{
+    width: 590px;
+    font-size: 30px;
+    color: #03077A;
+    margin-left: 10px;
+}
+.detailinputurl input{
+    width: 590px;
+    font-size: 30px;
+    color: #03077A;
+    margin-left: 65px;
+}
+.detailcommentbox{
+    margin-left: 20px;
+}
+.detailcommentbox h2{
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    clear: both;
+}
+.detailtextarea textArea{
+    width: 650px;
+    font-size: 20px;
+}
+.detailedit input{
+    margin-right: 20px;
+    margin-top: -40px;
+    float: right;
+    background-color: #03077A;
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 5px 20px;
+    border-radius: 10px;		/* CSS3草案 */
+	-webkit-border-radius: 10px;	/* Safari,Google Chrome用 */
+	-moz-border-radius: 10px;	/* Firefox用 */
+}
+.detailedit input:hover{
+    opacity: 0.5;
+}
+.detailto p{
+    clear: both;
+    font-size: 20px;
+    color: #03077A;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    margin-left: 10px;
+}
+.detailto p a{
+    font-size: 20px;
+    color: #03077A;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+.detailto p a:hover{
+    opacity: 0.5;
+}
+
+.input_login_1 input{
+    width: 410px;
+    font-size: 30px;
+}
+.input_login_2 input{
+    width: 390px;
+    font-size: 30px;
+}
+.input_login_3 input{
+    width: 480px;
+    font-size: 30px;
+    background-color: #03077A;
+    color: #FFFFFF;
+}
+.input_login_3 input:hover{
+    width: 480px;
+    font-size: 30px;
+    background-color: #03077A;
+    opacity: 0.5;
+    color: #FFFFFF;
+}
+.input_login_4 input{
+    width: 380px;
+    font-size: 30px;
+}
+.login_back{
+    margin: 0 auto;
+    width: 480px;
+    height: 100px;
+    box-sizing: padding-box;
+    padding-left: 10px;
+}
+.login_back p{
+    font-size: 20px;
+    color: #03077A;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+.login_back p a{
+    font-size: 20px;
+    color: #03077A;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    
+    text-align: center;
+}
+.login_back p a:hover{
+    opacity: 0.5;
+}
+.list{
+    background-color: #DADBEF;
+    box-sizing: padding-box;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 1px;
+    margin-bottom: 30px;
+}
+.list h2{
+    font-size: 30px;
+    color: #03077A;
+    margin: 0 0 30px 0;
+    text-align: left;
+}
+.list h3{
+    font-size: 25px;
+    color: #03077A;
+    font-weight: 300;
+    margin: 0 0 10px 0;
+    text-align: left;
+}
+.list p a{
+    font-size: 20px;
+    color: #03077A;
+    margin-left: 400px;
+}
+.list p a:hover{
+    opacity: 0.5;
+}
